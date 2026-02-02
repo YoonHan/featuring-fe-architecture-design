@@ -29,8 +29,6 @@ User Story를 분석해 보았을 때, Featuring의 "인플루언서 탐색 리�
 
 복잡도를 낮추기 위해 **Headless Interface** 패턴과 **Custom Hooks**를 결합한 구조로 결정했습니다. 핵심은 **페이지 컴포넌트(Page)가** 중앙에서 모든 로직을 조율하고, 비즈니스 로직은 Hook에서, UI는 각 컴포넌트가 담당하는 구조입니다.
 
-![Page Architecture Mermaid Diagram](./docs/assets/page-architecture-diagram.svg)
-
 ```mermaid
 graph TD
     subgraph "External State"
