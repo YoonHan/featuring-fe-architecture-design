@@ -32,7 +32,6 @@ User Story를 분석해 보았을 때, Featuring의 "인플루언서 탐색 리�
 ![Page Architecture Mermaid Diagram](./docs/assets/page-architecture-diagram.svg)
 
 ```mermaid
-// Mermaid Syntax
 graph TD
     subgraph "External State"
         URL[URL Query Params]
